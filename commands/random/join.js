@@ -43,7 +43,7 @@ class JoinCommand extends commando.Command {
                 message.member.voiceChannel.join()
                     .then(connection =>{
                         var server = servers[message.guild.id];
-                        message.reply("Success Joined!!");
+                        message.reply("撥歌嗨起來");
                         server.queue.push(args);
                         Play(connection, message);
                     })
@@ -52,7 +52,7 @@ class JoinCommand extends commando.Command {
         }
         else
         {
-            message.reply("you must be in a VoiceChannel first!")
+            message.reply("先進語音頻道好ㄇ")
         }
             
     }
