@@ -46,16 +46,25 @@ class AirhornCommand extends commando.Command {
                         var server = servers[message.guild.id];
                         server.queue.push(args);
                         var rng = Math.floor(Math.random() * 5) + 1;
-                        if(rng == 1)
-                        source = "https://www.youtube.com/watch?v=IpyingiCwV8"
-                        if(rng == 2)
-                        source = "https://www.youtube.com/watch?v=UaUa_0qPPgc"
-                        if(rng == 3)
-                        source = "https://www.youtube.com/watch?v=66F2-af-0dU"
-                        if(rng == 4)
-                        source = "https://www.youtube.com/watch?v=rFaOpHqFZxM"
-                        if(rng == 5)
-                        source = "https://www.youtube.com/watch?v=ywzRDTeaNQg"
+                        switch (rng) {
+                            case 1:
+                                source = "https://www.youtube.com/watch?v=IpyingiCwV8"   
+                                break;
+                            case 2:
+                                source = "https://www.youtube.com/watch?v=UaUa_0qPPgc"
+                                break;
+                            case 3:
+                                source = "https://www.youtube.com/watch?v=66F2-af-0dU"
+                                break;
+                            case 4:
+                                source = "https://www.youtube.com/watch?v=rFaOpHqFZxM" 
+                                break;
+                            case 5:
+                                source = "https://www.youtube.com/watch?v=ywzRDTeaNQg"
+                                break;                                    
+                            default:
+                                break;
+                        }
                         Play(connection, message,source);
                     })
             }
