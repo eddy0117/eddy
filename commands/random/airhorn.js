@@ -72,7 +72,7 @@ class AirhornCommand extends commando.Command {
         }
         else
         {
-            message.reply("you must be in a VoiceChannel first!")
+            message.reply("先進語音頻道好ㄇ")
         }
             
     }
