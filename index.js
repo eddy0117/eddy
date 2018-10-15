@@ -12,4 +12,4 @@ bot.on("ready",async () => {
     bot.user.setGame("-|庫璇蝦蝦蛋起司|-");
 });
 
-bot.login('NTAwNjg3MDQwMTMyODA4NzA0.DqOedw.oKHVLDAagdb3vC7-UKcmVmTM-C4')
+bot.login('process.env.BOT_TOKEN')
