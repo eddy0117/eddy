@@ -36,12 +36,12 @@ class RepAllRollCommand extends commando.Command
         var scale = Math.floor(Math.random() * 2);
         if(scale == 1)
         {
-            reputation[message.author.id].rep = reputation[message.author.id].rep + Math.floor(Math.random() * reputation[message.author.id].rep) + 1;
+            reputation[message.author.id].rep = reputation[message.author.id].rep + Math.floor(Math.random() * reputation[message.author.id].rep) * 2 + 1;
             addsub = "你的名聲增加到了"
         }
         else 
         {
-            reputation[message.author.id].rep = reputation[message.author.id].rep + Math.floor(Math.random() * reputation[message.author.id].rep * -1) - 1;
+            reputation[message.author.id].rep = reputation[message.author.id].rep + Math.floor(Math.random() * reputation[message.author.id].rep * 2 * -1) - 1;
             addsub = "你的名聲減少到了"
         } 
         message.reply(addsub + reputation[message.author.id].rep);
