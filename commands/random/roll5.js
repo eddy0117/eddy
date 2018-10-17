@@ -16,7 +16,7 @@ class DiceRoll5Command extends commando.Command {
     
     for(var i = 0; i <= 5 ; i ++ )
     {    
-        var roll = Math.floor(Math.random() * 35) + 1;
+        var roll = Math.floor(Math.random() * 99) + 1;
         //message.reply('你骰到了' + roll);
         
         switch (roll) {
