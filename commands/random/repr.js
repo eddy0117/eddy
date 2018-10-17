@@ -15,7 +15,7 @@ class RepRollCommand extends commando.Command
         );
     }
 
-    async run(message, args)
+    async run(message, args,addsub)
     {  
         //let targetUser = message.guild.members.get(args[0]);
         /*
@@ -37,12 +37,14 @@ class RepRollCommand extends commando.Command
         if(scale == 1)
         {
             reputation[message.author.id].rep = reputation[message.author.id].rep + Math.floor(Math.random() * 60) + 1;
+            addsub = "你的名聲增加到了"
         }
         else 
         {
             reputation[message.author.id].rep = reputation[message.author.id].rep + Math.floor(Math.random() * 60 * -1) - 1;
+            addsub = "你的名聲減少到了"
         } 
-        message.reply(scale + "你現在的名聲:" + reputation[message.author.id].rep);
+        message.reply(addsub + reputation[message.author.id].rep);
         fs.writeFile("reputation.json", JSON.stringify(reputation), (err) =>
         {
             if(err)
