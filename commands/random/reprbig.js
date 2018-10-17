@@ -33,7 +33,7 @@ class RepBigRollCommand extends commando.Command
         
         //var PutValue = message.author.send;
         
-        var scale = Math.floor(Math.random() * 4);
+        var scale = Math.floor(Math.random() * 2);
         if(scale == 1)
         {
             reputation[message.author.id].rep = reputation[message.author.id].rep + Math.floor(Math.random() * 200) + 1;
