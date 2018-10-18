@@ -323,7 +323,7 @@ class DiceRoll5Command extends commando.Command {
             default:
                 break;
         }
-        message.channel.sendMessage(roll + {files:[source]});
+        message.channel.sendMessage({files:[source]});
     }
 
         
