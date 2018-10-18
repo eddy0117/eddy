@@ -42,7 +42,7 @@ class RepUtaRollCommand extends commando.Command
         else 
         {
             reputation[message.author.id].rep = 10;
-            addsub = "你的名聲重設了"
+            addsub = "你的名聲重設為"
         } 
         message.reply(addsub + reputation[message.author.id].rep);
         fs.writeFile("reputation.json", JSON.stringify(reputation), (err) =>
