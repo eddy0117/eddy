@@ -33,10 +33,10 @@ class RepUtaRollCommand extends commando.Command
         
         //var PutValue = message.author.send;
         
-        var scale = Math.floor(Math.random() * 10);
+        var scale = Math.floor(Math.random() * 8);
         if(scale == 1)
         {
-            reputation[message.author.id].rep = Math.pow(reputation[message.author.id].rep , Math.floor(Math.random() * 3) + 1);
+            reputation[message.author.id].rep = Math.pow(reputation[message.author.id].rep , Math.floor(Math.random() * 3) + 2);
             addsub = "你的名聲暴增到了"
         }
         else 
