@@ -14,7 +14,7 @@ class DiceRoll5Command extends commando.Command {
 
     async run(message, args,source){
     
-    for(var i = 0; i <= 5 ; i ++ )
+    for(var i = 0; i <= 4 ; i ++ )
     {    
         var roll = Math.floor(Math.random() * 99) + 1;
         //message.reply('你骰到了' + roll);
