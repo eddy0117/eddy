@@ -45,13 +45,13 @@ class RepRollCommand extends commando.Command
             var scale = Math.floor(Math.random() * 2);
             if(scale == 1)
             {
-                reputation[message.author.username].rep = reputation[message.author.username].rep + (Math.floor(Math.random() * 4 + 1) * args);
+                reputation[message.author.username].rep = reputation[message.author.username].rep + Math.floor(Math.random() * 5 * args);
                 message.reply("你的名聲增加到了" + reputation[message.author.username].rep);
                 
             }
             else 
             {
-                reputation[message.author.username].rep = reputation[message.author.username].rep + (Math.floor(Math.random() * 4 + 1) * args * -1);
+                reputation[message.author.username].rep = reputation[message.author.username].rep + Math.floor(Math.random() * 5 * args * -1);
                 message.reply("你的名聲減少到了" + reputation[message.author.username].rep);
                 
             }
