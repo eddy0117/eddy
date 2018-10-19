@@ -13,7 +13,13 @@ class DiceRollCommand extends commando.Command {
     }
 
     async run(message, args,source){
+        
     
+        if( args >= 20 ){
+            message.reply("誰叫你roll那麼多的");
+            args = 0;
+        } 
+        
     for(var i = 0; i < args ; i ++ )
     {    
         var roll = Math.floor(Math.random() * 35) + 1;
