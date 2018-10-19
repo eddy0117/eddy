@@ -6,14 +6,17 @@ class DiceRollCommand extends commando.Command {
             name: 'roll',
             group: 'random',
             memberName:'roll',
-            description: 'Rolls a Picture(oil)'
+            description: 'Rolls s Picture(oil)'
         }
 
         );
     }
 
     async run(message, args,source){
-        var roll = Math.floor(Math.random() * 99) + 1;
+    
+    for(var i = 0; i < args ; i ++ )
+    {    
+        var roll = Math.floor(Math.random() * 35) + 1;
         //message.reply('你骰到了' + roll);
         
         switch (roll) {
@@ -320,8 +323,10 @@ class DiceRollCommand extends commando.Command {
             default:
                 break;
         }
-
         message.channel.sendMessage({files:[source]});
+    }
+
+        
         /*
         if(roll == 1)
         message.channel.sendMessage({files:["https://c.kekeke.cc/t/K9jfGPC78G.gif"]});
