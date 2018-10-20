@@ -22,7 +22,7 @@ class DiceRollCommand extends commando.Command {
         
     for(var i = 0; i < args ; i ++ )
     {    
-        var roll = Math.floor(Math.random() * 199) + 1;
+        var roll = Math.floor(Math.random() * 299) + 1;
         //message.reply('你骰到了' + roll);
         
         switch (roll) {
@@ -625,7 +625,307 @@ class DiceRollCommand extends commando.Command {
                 break; 
             case 200:
                 source = "https://i.imgur.com/17ncVDS.jpg"
-                break;                                                                                                                                             
+                break; 
+            case 201: 
+        source = "https://imgur.com/HghX6Sk" 
+        break;
+case 202: 
+        source = "https://imgur.com/uZ9Q27e" 
+        break;
+case 203: 
+        source = "https://imgur.com/cKoNpp5" 
+        break;
+case 204: 
+        source = "https://imgur.com/Vm8hmyG" 
+        break;
+case 205: 
+        source = "https://imgur.com/gJIAoKX" 
+        break;
+case 206: 
+        source = "https://imgur.com/nlrNCHA" 
+        break;
+case 207: 
+        source = "https://imgur.com/rgDeGjd" 
+        break;
+case 208: 
+        source = "https://imgur.com/O3CNbxN" 
+        break;
+case 209: 
+        source = "https://imgur.com/EqaB5R0" 
+        break;
+case 210: 
+        source = "https://imgur.com/Fq8sqMf" 
+        break;
+case 211: 
+        source = "https://imgur.com/VvCMdVR" 
+        break;
+case 212: 
+        source = "https://imgur.com/U0sesfb" 
+        break;
+case 213: 
+        source = "https://imgur.com/vtlcZd4" 
+        break;
+case 214: 
+        source = "https://imgur.com/ijxAMA4" 
+        break;
+case 215: 
+        source = "https://imgur.com/MjFOjVo" 
+        break;
+case 216: 
+        source = "https://imgur.com/DP3LbYE" 
+        break;
+case 217: 
+        source = "https://imgur.com/gNqMufl" 
+        break;
+case 218: 
+        source = "https://imgur.com/pKZkb1k" 
+        break;
+case 219: 
+        source = "https://imgur.com/RIruu2R" 
+        break;
+case 220: 
+        source = "https://imgur.com/RYnLB89" 
+        break;
+case 221: 
+        source = "https://imgur.com/xTGlcdo" 
+        break;
+case 222: 
+        source = "https://imgur.com/ZPTWVNI" 
+        break;
+case 223: 
+        source = "https://imgur.com/ICmHDfu" 
+        break;
+case 224: 
+        source = "https://imgur.com/k2ZVyTD" 
+        break;
+case 225: 
+        source = "https://imgur.com/XDEHtP5" 
+        break;
+case 226: 
+        source = "https://imgur.com/jLJHocn" 
+        break;
+case 227: 
+        source = "https://imgur.com/nqafEqk" 
+        break;
+case 228: 
+        source = "https://imgur.com/SksTnD9" 
+        break;
+case 229: 
+        source = "https://imgur.com/OZVXuQV" 
+        break;
+case 230: 
+        source = "https://imgur.com/KZQHy3E" 
+        break;
+case 231: 
+        source = "https://imgur.com/H6M9SH9" 
+        break;
+case 232: 
+        source = "https://imgur.com/GaicGjU" 
+        break;
+case 233: 
+        source = "https://imgur.com/gNIhJyx" 
+        break;
+case 234: 
+        source = "https://imgur.com/9dexFbn" 
+        break;
+case 235: 
+        source = "https://imgur.com/t3eO8u3" 
+        break;
+case 236: 
+        source = "https://imgur.com/HSav2qg" 
+        break;
+case 237: 
+        source = "https://imgur.com/AilnYpO" 
+        break;
+case 238: 
+        source = "https://imgur.com/NWpGiKN" 
+        break;
+case 239: 
+        source = "https://imgur.com/XGvT5ig" 
+        break;
+case 240: 
+        source = "https://imgur.com/igrYRum" 
+        break;
+case 241: 
+        source = "https://imgur.com/Y8CN8Gf" 
+        break;
+case 242: 
+        source = "https://imgur.com/X4zw5J2" 
+        break;
+case 243: 
+        source = "https://imgur.com/00vMcut" 
+        break;
+case 244: 
+        source = "https://imgur.com/L4aQMvm" 
+        break;
+case 245: 
+        source = "https://imgur.com/Vtdl3j3" 
+        break;
+case 246: 
+        source = "https://imgur.com/qjFRcnS" 
+        break;
+case 247: 
+        source = "https://imgur.com/30Tp3xS" 
+        break;
+case 248: 
+        source = "https://imgur.com/5MLS2sA" 
+        break;
+case 249: 
+        source = "https://imgur.com/q3Aenm3" 
+        break;
+case 250: 
+        source = "https://imgur.com/pMADoMM" 
+        break;
+case 251: 
+        source = "https://imgur.com/Invd4Ji" 
+        break;
+case 252: 
+        source = "https://imgur.com/6O237Lg" 
+        break;
+case 253: 
+        source = "https://imgur.com/xtp8K3L" 
+        break;
+case 254: 
+        source = "https://imgur.com/Y5hfAg9" 
+        break;
+case 255: 
+        source = "https://imgur.com/cmxC1Bw" 
+        break;
+case 256: 
+        source = "https://imgur.com/97ADzvA" 
+        break;
+case 257: 
+        source = "https://imgur.com/aZQ1zHm" 
+        break;
+case 258: 
+        source = "https://imgur.com/uSppGNu" 
+        break;
+case 259: 
+        source = "https://imgur.com/doaYln5" 
+        break;
+case 260: 
+        source = "https://imgur.com/Wha4SPo" 
+        break;
+case 261: 
+        source = "https://imgur.com/U3kEEB0" 
+        break;
+case 262: 
+        source = "https://imgur.com/1VP4XSS" 
+        break;
+case 263: 
+        source = "https://imgur.com/cmghDlO" 
+        break;
+case 264: 
+        source = "https://imgur.com/y8NInss" 
+        break;
+case 265: 
+        source = "https://imgur.com/a5k0pgZ" 
+        break;
+case 266: 
+        source = "https://imgur.com/mwBMZkd" 
+        break;
+case 267: 
+        source = "https://imgur.com/2ZoKlQM" 
+        break;
+case 268: 
+        source = "https://imgur.com/8xLWq3r" 
+        break;
+case 269: 
+        source = "https://imgur.com/2xWm981" 
+        break;
+case 270: 
+        source = "https://imgur.com/yaQtKcv" 
+        break;
+case 271: 
+        source = "https://imgur.com/kli6If2" 
+        break;
+case 272: 
+        source = "https://imgur.com/vLAkVLH" 
+        break;
+case 273: 
+        source = "https://imgur.com/JhdAOLv" 
+        break;
+case 274: 
+        source = "https://imgur.com/XYxbEyg" 
+        break;
+case 275: 
+        source = "https://imgur.com/h1A8izL"
+        break;
+case 276: 
+        source = "https://imgur.com/beLfPGf" 
+        break;
+case 277: 
+        source = "https://imgur.com/WU9wYY2" 
+        break;
+case 278: 
+        source = "https://imgur.com/7ui5Vpd" 
+        break;
+case 279: 
+        source = "https://imgur.com/cVkfsXH" 
+        break;
+case 280: 
+        source = "https://imgur.com/v5xV0bJ" 
+        break;
+case 281: 
+        source = "https://imgur.com/mphsuYq" 
+        break;
+case 282: 
+        source = "https://imgur.com/e0LBkD0" 
+        break;
+case 283: 
+        source = "https://imgur.com/gc03Rhh" 
+        break;
+case 284: 
+        source = "https://imgur.com/oaHdCdR" 
+        break;
+case 285: 
+        source = "https://imgur.com/89HOuqg" 
+        break;
+case 286: 
+        source = "https://imgur.com/0MOpIJi" 
+        break;
+case 287: 
+        source = "https://imgur.com/x6hbayr" 
+        break;
+case 288: 
+        source = "https://imgur.com/xLdTSa3" 
+        break;
+case 289: 
+        source = "https://imgur.com/SdLSeBK" 
+        break;
+case 290: 
+        source = "https://imgur.com/jumU3WR" 
+        break;
+case 291: 
+        source = "https://imgur.com/AQIocR9" 
+        break;
+case 292: 
+        source = "https://imgur.com/5iB5ePO" 
+        break;
+case 293: 
+        source = "https://imgur.com/KNIY58n" 
+        break;
+case 294: 
+        source = "https://imgur.com/sStZpsj" 
+        break;
+case 295: 
+        source = "https://imgur.com/oFZgDnP" 
+        break;
+case 296: 
+        source = "https://imgur.com/pwqejBK" 
+        break;
+case 297: 
+        source = "https://imgur.com/SbBHc47" 
+        break;
+case 298: 
+        source = "https://imgur.com/QAYBbWq" 
+        break;
+case 299: 
+        source = "https://imgur.com/U8Lz93q" 
+        break;
+case 300: 
+        source = "https://imgur.com/AB0mcjW" 
+        break;
             default:
                 break;
             }
