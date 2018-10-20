@@ -22,7 +22,7 @@ class DiceRollCommand extends commando.Command {
         
     for(var i = 0; i < args ; i ++ )
     {    
-        var roll = Math.floor(Math.random() * 199) + 1;
+        var roll = Math.floor(Math.random() * 299) + 1;
         //message.reply('你骰到了' + roll);
         
         switch (roll) {
@@ -625,7 +625,307 @@ class DiceRollCommand extends commando.Command {
                 break; 
             case 200:
                 source = "https://i.imgur.com/17ncVDS.jpg"
-                break;             
+                break;  
+        case 201: 
+        source = "https://i.imgur.com/HghX6Sk.jpg" 
+        break;
+case 202: 
+        source = "https://imgur.com/uZ9Q27e.jpg" 
+        break;
+case 203: 
+        source = "https://imgur.com/cKoNpp5.jpg" 
+        break;
+case 204: 
+        source = "https://imgur.com/Vm8hmyG.jpg" 
+        break;
+case 205: 
+        source = "https://imgur.com/gJIAoKX.jpg" 
+        break;
+case 206: 
+        source = "https://imgur.com/nlrNCHA.jpg" 
+        break;
+case 207: 
+        source = "https://imgur.com/rgDeGjd.jpg" 
+        break;
+case 208: 
+        source = "https://imgur.com/O3CNbxN.jpg" 
+        break;
+case 209: 
+        source = "https://imgur.com/EqaB5R0.jpg" 
+        break;
+case 210: 
+        source = "https://imgur.com/Fq8sqMf.jpg" 
+        break;
+case 211: 
+        source = "https://imgur.com/VvCMdVR.jpg" 
+        break;
+case 212: 
+        source = "https://imgur.com/U0sesfb.jpg" 
+        break;
+case 213: 
+        source = "https://imgur.com/vtlcZd4.jpg" 
+        break;
+case 214: 
+        source = "https://imgur.com/ijxAMA4.jpg" 
+        break;
+case 215: 
+        source = "https://imgur.com/MjFOjVo.jpg" 
+        break;
+case 216: 
+        source = "https://imgur.com/DP3LbYE.jpg" 
+        break;
+case 217: 
+        source = "https://imgur.com/gNqMufl.jpg" 
+        break;
+case 218: 
+        source = "https://imgur.com/pKZkb1k.jpg" 
+        break;
+case 219: 
+        source = "https://imgur.com/RIruu2R.jpg" 
+        break;
+case 220: 
+        source = "https://imgur.com/RYnLB89.jpg" 
+        break;
+case 221: 
+        source = "https://imgur.com/xTGlcdo.jpg" 
+        break;
+case 222: 
+        source = "https://imgur.com/ZPTWVNI.jpg" 
+        break;
+case 223: 
+        source = "https://imgur.com/ICmHDfu.jpg" 
+        break;
+case 224: 
+        source = "https://imgur.com/k2ZVyTD.jpg" 
+        break;
+case 225: 
+        source = "https://imgur.com/XDEHtP5.jpg" 
+        break;
+case 226: 
+        source = "https://imgur.com/jLJHocn.jpg" 
+        break;
+case 227: 
+        source = "https://imgur.com/nqafEqk.jpg" 
+        break;
+case 228: 
+        source = "https://imgur.com/SksTnD9.jpg" 
+        break;
+case 229: 
+        source = "https://imgur.com/OZVXuQV.jpg" 
+        break;
+case 230: 
+        source = "https://imgur.com/KZQHy3E.jpg" 
+        break;
+case 231: 
+        source = "https://imgur.com/H6M9SH9.jpg" 
+        break;
+case 232: 
+        source = "https://imgur.com/GaicGjU.jpg" 
+        break;
+case 233: 
+        source = "https://imgur.com/gNIhJyx.jpg" 
+        break;
+case 234: 
+        source = "https://imgur.com/9dexFbn.jpg" 
+        break;
+case 235: 
+        source = "https://imgur.com/t3eO8u3.jpg" 
+        break;
+case 236: 
+        source = "https://imgur.com/HSav2qg.jpg" 
+        break;
+case 237: 
+        source = "https://imgur.com/AilnYpO.jpg" 
+        break;
+case 238: 
+        source = "https://imgur.com/NWpGiKN.jpg" 
+        break;
+case 239: 
+        source = "https://imgur.com/XGvT5ig.jpg" 
+        break;
+case 240: 
+        source = "https://imgur.com/igrYRum.jpg" 
+        break;
+case 241: 
+        source = "https://imgur.com/Y8CN8Gf.jpg" 
+        break;
+case 242: 
+        source = "https://imgur.com/X4zw5J2.jpg" 
+        break;
+case 243: 
+        source = "https://imgur.com/00vMcut.jpg" 
+        break;
+case 244: 
+        source = "https://imgur.com/L4aQMvm.jpg" 
+        break;
+case 245: 
+        source = "https://imgur.com/Vtdl3j3.jpg" 
+        break;
+case 246: 
+        source = "https://imgur.com/qjFRcnS.jpg" 
+        break;
+case 247: 
+        source = "https://imgur.com/30Tp3xS.jpg" 
+        break;
+case 248: 
+        source = "https://imgur.com/5MLS2sA.jpg" 
+        break;
+case 249: 
+        source = "https://imgur.com/q3Aenm3.jpg" 
+        break;
+case 250: 
+        source = "https://imgur.com/pMADoMM.jpg" 
+        break;
+case 251: 
+        source = "https://imgur.com/Invd4Ji.jpg" 
+        break;
+case 252: 
+        source = "https://imgur.com/6O237Lg.jpg" 
+        break;
+case 253: 
+        source = "https://imgur.com/xtp8K3L.jpg" 
+        break;
+case 254: 
+        source = "https://imgur.com/Y5hfAg9.jpg" 
+        break;
+case 255: 
+        source = "https://imgur.com/cmxC1Bw.jpg" 
+        break;
+case 256: 
+        source = "https://imgur.com/97ADzvA.jpg" 
+        break;
+case 257: 
+        source = "https://imgur.com/aZQ1zHm.jpg" 
+        break;
+case 258: 
+        source = "https://imgur.com/uSppGNu.jpg" 
+        break;
+case 259: 
+        source = "https://imgur.com/doaYln5.jpg" 
+        break;
+case 260: 
+        source = "https://imgur.com/Wha4SPo.jpg" 
+        break;
+case 261: 
+        source = "https://imgur.com/U3kEEB0.jpg" 
+        break;
+case 262: 
+        source = "https://imgur.com/1VP4XSS.jpg" 
+        break;
+case 263: 
+        source = "https://imgur.com/cmghDlO.jpg" 
+        break;
+case 264: 
+        source = "https://imgur.com/y8NInss.jpg" 
+        break;
+case 265: 
+        source = "https://imgur.com/a5k0pgZ.jpg" 
+        break;
+case 266: 
+        source = "https://imgur.com/mwBMZkd.jpg" 
+        break;
+case 267: 
+        source = "https://imgur.com/2ZoKlQM.jpg" 
+        break;
+case 268: 
+        source = "https://imgur.com/8xLWq3r.jpg" 
+        break;
+case 269: 
+        source = "https://imgur.com/2xWm981.jpg" 
+        break;
+case 270: 
+        source = "https://imgur.com/yaQtKcv.jpg" 
+        break;
+case 271: 
+        source = "https://imgur.com/kli6If2.jpg" 
+        break;
+case 272: 
+        source = "https://imgur.com/vLAkVLH.jpg" 
+        break;
+case 273: 
+        source = "https://imgur.com/JhdAOLv.jpg" 
+        break;
+case 274: 
+        source = "https://imgur.com/XYxbEyg.jpg" 
+        break;
+case 275: 
+        source = "https://imgur.com/h1A8izL.jpg"
+        break;
+case 276: 
+        source = "https://imgur.com/beLfPGf.jpg" 
+        break;
+case 277: 
+        source = "https://imgur.com/WU9wYY2.jpg" 
+        break;
+case 278: 
+        source = "https://imgur.com/7ui5Vpd.jpg" 
+        break;
+case 279: 
+        source = "https://imgur.com/cVkfsXH.jpg" 
+        break;
+case 280: 
+        source = "https://imgur.com/v5xV0bJ.jpg" 
+        break;
+case 281: 
+        source = "https://imgur.com/mphsuYq.jpg" 
+        break;
+case 282: 
+        source = "https://imgur.com/e0LBkD0.jpg" 
+        break;
+case 283: 
+        source = "https://imgur.com/gc03Rhh.jpg" 
+        break;
+case 284: 
+        source = "https://imgur.com/oaHdCdR.jpg" 
+        break;
+case 285: 
+        source = "https://imgur.com/89HOuqg.jpg" 
+        break;
+case 286: 
+        source = "https://imgur.com/0MOpIJi.jpg" 
+        break;
+case 287: 
+        source = "https://imgur.com/x6hbayr.jpg" 
+        break;
+case 288: 
+        source = "https://imgur.com/xLdTSa3.jpg" 
+        break;
+case 289: 
+        source = "https://imgur.com/SdLSeBK.jpg" 
+        break;
+case 290: 
+        source = "https://imgur.com/jumU3WR.jpg" 
+        break;
+case 291: 
+        source = "https://imgur.com/AQIocR9.jpg" 
+        break;
+case 292: 
+        source = "https://imgur.com/5iB5ePO.jpg" 
+        break;
+case 293: 
+        source = "https://imgur.com/KNIY58n.jpg" 
+        break;
+case 294: 
+        source = "https://imgur.com/sStZpsj.jpg" 
+        break;
+case 295: 
+        source = "https://imgur.com/oFZgDnP.jpg" 
+        break;
+case 296: 
+        source = "https://imgur.com/pwqejBK.jpg" 
+        break;
+case 297: 
+        source = "https://imgur.com/SbBHc47.jpg" 
+        break;
+case 298: 
+        source = "https://imgur.com/QAYBbWq.jpg" 
+        break;
+case 299: 
+        source = "https://imgur.com/U8Lz93q.jpg" 
+        break;
+case 300: 
+        source = "https://imgur.com/AB0mcjW.jpg" 
+        break;
             default:
                 break;
             }
