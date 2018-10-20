@@ -629,7 +629,7 @@ class DiceRollCommand extends commando.Command {
             default:
                 break;
             }
-        
+        message.channel.sendMessage(roll);
         message.channel.sendMessage({files:[source]});
     }
 
