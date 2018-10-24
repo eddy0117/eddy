@@ -22,7 +22,7 @@ class DiceRollCommand extends commando.Command {
         
     for(var i = 0; i < args ; i ++ )
     {    
-        var roll = Math.floor(Math.random() * 899) + 1;
+        var roll = Math.floor(Math.random() * 999) + 1;
         //message.reply('你骰到了' + roll);
         
         switch (roll) {
@@ -4219,6 +4219,606 @@ class DiceRollCommand extends commando.Command {
             case 900:  
 
             source = "https://i.imgur.com/iVS62ui.jpg"  
+
+            break;  
+                
+            case 901:  
+
+            source = "https://i.imgur.com/c5Tb3p6.jpg"  
+
+            break;
+
+            case 902:  
+
+            source = "https://i.imgur.com/LZGxi9W.jpg"  
+
+            break;
+
+            case 903:  
+
+            source = "https://i.imgur.com/7y8vhOR.jpg"  
+
+            break;
+
+            case 904:  
+
+            source = "https://i.imgur.com/HW45XRa.jpg"  
+
+            break;
+
+            case 905:  
+
+            source = "https://i.imgur.com/dKBesVu.jpg"  
+
+            break;
+
+            case 906:  
+
+            source = "https://i.imgur.com/xzn7NY6.jpg"  
+
+            break;
+
+            case 907:  
+
+            source = "https://i.imgur.com/p7eEwk6.jpg"  
+
+            break;
+
+            case 908:  
+
+            source = "https://i.imgur.com/pbzZb3N.jpg"  
+
+            break;
+
+            case 909:  
+
+            source = "https://i.imgur.com/fKVMWUg.jpg"  
+
+            break;
+
+            case 910:  
+
+            source = "https://i.imgur.com/b4Ev6OP.jpg"  
+
+            break;
+
+            case 911:  
+
+            source = "https://i.imgur.com/sAtoKuH.jpg"  
+
+            break;
+
+            case 912:  
+
+            source = "https://i.imgur.com/kAW71Sk.jpg"  
+
+            break;
+
+            case 913:  
+
+            source = "https://i.imgur.com/9EvVpSQ.jpg"  
+
+            break;
+
+            case 914:  
+
+            source = "https://i.imgur.com/iwVtcc0.jpg"  
+
+            break;
+
+            case 915:  
+
+            source = "https://i.imgur.com/65LZtYJ.jpg"  
+
+            break;
+
+            case 916:  
+
+            source = "https://i.imgur.com/KkrRffL.jpg"  
+
+            break;
+
+            case 917:  
+
+            source = "https://i.imgur.com/zaAlITN.jpg"  
+
+            break;
+
+            case 918:  
+
+            source = "https://i.imgur.com/yMExozf.jpg"  
+
+            break;
+
+            case 919:  
+
+            source = "https://i.imgur.com/Ngw92BH.jpg"  
+
+            break;
+
+            case 920:  
+
+            source = "https://i.imgur.com/Sfs9ejW.jpg"  
+
+            break;
+
+            case 921:  
+
+            source = "https://i.imgur.com/DOqFoSn.jpg"  
+
+            break;
+
+            case 922:  
+
+            source = "https://i.imgur.com/EFgOAiL.jpg"  
+
+            break;
+
+            case 923:  
+
+            source = "https://i.imgur.com/qLC1hh3.jpg"  
+
+            break;
+
+            case 924:  
+
+            source = "https://i.imgur.com/HWs1Lyx.jpg"  
+
+            break;
+
+            case 925:  
+
+            source = "https://i.imgur.com/nKtekbE.jpg"  
+
+            break;
+
+            case 926:  
+
+            source = "https://i.imgur.com/Lgr8ZrR.jpg"  
+
+            break;
+
+            case 927:  
+
+            source = "https://i.imgur.com/BHEfuwl.jpg"  
+
+            break;
+
+            case 928:  
+
+            source = "https://i.imgur.com/iCzoUi4.jpg"  
+
+            break;
+
+            case 929:  
+
+            source = "https://i.imgur.com/aNpfnRX.jpg"  
+
+            break;
+
+            case 930:  
+
+            source = "https://i.imgur.com/qNUnsEp.jpg"  
+
+            break;
+
+            case 931:  
+
+            source = "https://i.imgur.com/iaC30M7.jpg"  
+
+            break;
+
+            case 932:  
+
+            source = "https://i.imgur.com/fbRbN6X.jpg"  
+
+            break;
+
+            case 933:  
+
+            source = "https://i.imgur.com/jSK5a3R.jpg"  
+
+            break;
+
+            case 934:  
+
+            source = "https://i.imgur.com/mlm5NMa.jpg"  
+
+            break;
+
+            case 935:  
+
+            source = "https://i.imgur.com/ZaoX44h.jpg"  
+
+            break;
+
+            case 936:  
+
+            source = "https://i.imgur.com/ToXQzGv.jpg"  
+
+            break;
+
+            case 937:  
+
+            source = "https://i.imgur.com/90RBF8I.jpg"  
+
+            break;
+
+            case 938:  
+
+            source = "https://i.imgur.com/xbvbwwA.jpg"  
+
+            break;
+
+            case 939:  
+
+            source = "https://i.imgur.com/PjaexOU.jpg"  
+
+            break;
+
+            case 940:  
+
+            source = "https://i.imgur.com/VlZu7RH.jpg"  
+
+            break;
+
+            case 941:  
+
+            source = "https://i.imgur.com/WZaY7oR.jpg"  
+
+            break;
+
+            case 942:  
+
+            source = "https://i.imgur.com/HJssGqv.jpg"  
+
+            break;
+
+            case 943:  
+
+            source = "https://i.imgur.com/N14y0fa.jpg"  
+
+            break;
+
+            case 944:  
+
+            source = "https://i.imgur.com/bKLrJKb.jpg"  
+
+            break;
+
+            case 945:  
+
+            source = "https://i.imgur.com/uISquCK.jpg"  
+
+            break;
+
+            case 946:  
+
+            source = "https://i.imgur.com/DYJB3q5.jpg"  
+
+            break;
+
+            case 947:  
+
+            source = "https://i.imgur.com/MlXcf6a.jpg"  
+
+            break;
+
+            case 948:  
+
+            source = "https://i.imgur.com/Jrqsh5T.jpg"  
+
+            break;
+
+            case 949:  
+
+            source = "https://i.imgur.com/0CsE18S.jpg"  
+
+            break;
+
+            case 950:  
+
+            source = "https://i.imgur.com/3SvMIOw.jpg"  
+
+            break;
+
+            case 951:  
+
+            source = "https://i.imgur.com/SqMcZF4.jpg"  
+
+            break;
+
+            case 952:  
+
+            source = "https://i.imgur.com/WdYgEXg.jpg"  
+
+            break;
+
+            case 953:  
+
+            source = "https://i.imgur.com/yfRhtxl.jpg"  
+
+            break;
+
+            case 954:  
+
+            source = "https://i.imgur.com/LvpdgPL.jpg"  
+
+            break;
+
+            case 955:  
+
+            source = "https://i.imgur.com/f25RvMn.jpg"  
+
+            break;
+
+            case 956:  
+
+            source = "https://i.imgur.com/mG8Npds.jpg"  
+
+            break;
+
+            case 957:  
+
+            source = "https://i.imgur.com/5HLM2jF.jpg"  
+
+            break;
+
+            case 958:  
+
+            source = "https://i.imgur.com/MItpwDG.jpg"  
+
+            break;
+
+            case 959:  
+
+            source = "https://i.imgur.com/B4wOhYp.jpg"  
+
+            break;
+
+            case 960:  
+
+            source = "https://i.imgur.com/kbV3SVu.jpg"  
+
+            break;
+
+            case 961:  
+
+            source = "https://i.imgur.com/vtOlnku.jpg"  
+
+            break;
+
+            case 962:  
+
+            source = "https://i.imgur.com/UkYia6Z.jpg"  
+
+            break;
+
+            case 963:  
+
+            source = "https://i.imgur.com/9E2yrFU.jpg"  
+
+            break;
+
+            case 964:  
+
+            source = "https://i.imgur.com/DHtWFr6.jpg"  
+
+            break;
+
+            case 965:  
+
+            source = "https://i.imgur.com/PfIihN0.jpg"  
+
+            break;
+
+            case 966:  
+
+            source = "https://i.imgur.com/yYmQz8L.jpg"  
+
+            break;
+
+            case 967:  
+
+            source = "https://i.imgur.com/P7Lt6Z9.jpg"  
+
+            break;
+
+            case 968:  
+
+            source = "https://i.imgur.com/ukuIW43.jpg"  
+
+            break;
+
+            case 969:  
+
+            source = "https://i.imgur.com/VoWlzMh.jpg"  
+
+            break;
+
+            case 970:  
+
+            source = "https://i.imgur.com/3K7TM4b.jpg"  
+
+            break;
+
+            case 971:  
+
+            source = "https://i.imgur.com/3YT46du.jpg"  
+
+            break;
+
+            case 972:  
+
+            source = "https://i.imgur.com/DeYJmxU.jpg"  
+
+            break;
+
+            case 973:  
+
+            source = "https://i.imgur.com/IC4iS9f.jpg"  
+
+            break;
+
+            case 974:  
+
+            source = "https://i.imgur.com/cQmFL9M.jpg"  
+
+            break;
+
+            case 975:  
+
+            source = "https://i.imgur.com/x143bc3.jpg"  
+
+            break;
+
+            case 976:  
+
+            source = "https://i.imgur.com/61tS6rG.jpg"  
+
+            break;
+
+            case 977:  
+
+            source = "https://i.imgur.com/yDbHoU3.jpg"  
+
+            break;
+
+            case 978:  
+
+            source = "https://i.imgur.com/j924I1b.jpg"  
+
+            break;
+
+            case 979:  
+
+            source = "https://i.imgur.com/19htWze.jpg"  
+
+            break;
+
+            case 980:  
+
+            source = "https://i.imgur.com/k2s4pau.jpg"  
+
+            break;
+
+            case 981:  
+
+            source = "https://i.imgur.com/SIZido6.jpg"  
+
+            break;
+
+            case 982:  
+
+            source = "https://i.imgur.com/lHTnZwm.jpg"  
+
+            break;
+
+            case 983:  
+
+            source = "https://i.imgur.com/4FjrdPI.jpg"  
+
+            break;
+
+            case 984:  
+
+            source = "https://i.imgur.com/9uYya4I.jpg"  
+
+            break;
+
+            case 985:  
+
+            source = "https://i.imgur.com/XaOIdh9.jpg"  
+
+            break;
+
+            case 986:  
+
+            source = "https://i.imgur.com/mwcjNbV.jpg"  
+
+            break;
+
+            case 987:  
+
+            source = "https://i.imgur.com/yepnTMD.jpg"  
+
+            break;
+
+            case 988:  
+
+            source = "https://i.imgur.com/Ng27Ygz.jpg"  
+
+            break;
+
+            case 989:  
+
+            source = "https://i.imgur.com/pmL26Yv.jpg"  
+
+            break;
+
+            case 990:  
+
+            source = "https://i.imgur.com/2U2oflA.jpg"  
+
+            break;
+
+            case 991:  
+
+            source = "https://i.imgur.com/cSMZeIU.jpg"  
+
+            break;
+
+            case 992:  
+
+            source = "https://i.imgur.com/mVWdr08.jpg"  
+
+            break;
+
+            case 993:  
+
+            source = "https://i.imgur.com/Pqx5tw5.jpg"  
+
+            break;
+
+            case 994:  
+
+            source = "https://i.imgur.com/H2kMdDo.jpg"  
+
+            break;
+
+            case 995:  
+
+            source = "https://i.imgur.com/O9JGdTQ.jpg"  
+
+            break;
+
+            case 996:  
+
+            source = "https://i.imgur.com/d92nTC5.jpg"  
+
+            break;
+
+            case 997:  
+
+            source = "https://i.imgur.com/URpm2Qe.jpg"  
+
+            break;
+
+            case 998:  
+
+            source = "https://i.imgur.com/ShTtZ69.jpg"  
+
+            break;
+
+            case 999:  
+
+            source = "https://i.imgur.com/GeAXaQj.jpg"  
+
+            break;
+
+            case 1000:  
+
+            source = "https://i.imgur.com/uFDR0Uc.jpg"  
 
             break;    
 
