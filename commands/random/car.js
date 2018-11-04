@@ -30,8 +30,10 @@ class CarCommand extends commando.Command {
         if(roll == 6)
         Car = ""
         */
-        
-        message.reply('車車:https://www.wnacg.com/photos-slide-aid-' + roll + ".html");
+        for(var i = 0 ; i < = args ; i + + )
+            {    
+            message.reply('車車:https://www.wnacg.com/photos-slide-aid-' + roll + ".html");
+            }    
     }
 }
 
