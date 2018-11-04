@@ -14,14 +14,14 @@ class CarCommand extends commando.Command {
 
     async run(message, args, i){
         
-    for(i = 0 ; i < = args ; i + + )
+    for(i = 0 ; i < args ; i + + ; )
             {            
         
             var roll = Math.floor(Math.random() * 50000) + 10000;
         
          
             message.reply('車車:https://www.wnacg.com/photos-slide-aid-' + roll + ".html");
-            }    
+            } ;   
     }
 }
 
