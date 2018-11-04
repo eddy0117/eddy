@@ -12,9 +12,9 @@ class CarCommand extends commando.Command {
         );
     }
 
-    async run(message, args, i){
+    async run(message, args){
         
-    for(i = 0 ; i < args ; i + + ; )
+    for(var i = 0 ; i < args ; i ++ ; )
             {            
         
             var roll = Math.floor(Math.random() * 50000) + 10000;
