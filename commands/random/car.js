@@ -14,6 +14,12 @@ class CarCommand extends commando.Command {
 
     async run(message, args){
         
+        if(args > 10)
+        {
+            args = 1;
+            message.reply("87");
+        }
+        
     for(var i = 0 ; i < args ; i ++ )
             {            
         
