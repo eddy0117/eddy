@@ -9,7 +9,7 @@ global.currentTeamMembers = [];
 global.servers = {};
 bot.on("ready",async () => {
     console.log(`${bot.user.username} is online`);
-    bot.user.setGame("阿~摳購喜啂");
+    bot.user.setGame("eddy做的破機器人=_=");
 });
 
 bot.login(process.env.BOT_TOKEN);
