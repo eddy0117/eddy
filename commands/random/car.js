@@ -23,10 +23,10 @@ class CarCommand extends commando.Command {
     for(var i = 0 ; i < args ; i ++ )
             {            
         
-            var roll = Math.floor(Math.random() * 50000) + 10000;
+            var roll = Math.floor(Math.random() * 280000) + 1;
         
          
-            message.reply('車車:https://www.wnacg.com/photos-slide-aid-' + roll + ".html");
+            message.reply('車車:https://nhentai.net/g/-' + roll + "/");
             } ;   
     }
 }
