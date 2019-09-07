@@ -26,7 +26,7 @@ class CarCommand extends commando.Command {
             var roll = Math.floor(Math.random() * 280000) + 1;
         
          
-            message.reply('車車:https://nhentai.net/g/-' + roll + "/");
+            message.reply('車車:https://nhentai.net/g/' + roll + "/");
             } ;   
     }
 }
